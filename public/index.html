@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>A sample chat application</title>
+		<script type="text/javascript" src="./script.js"></script>
+		<script type="text/javascript" src="socket.io/socket.io.js"></script>
+		<link rel="stylesheet" href="chat.css"></link>
+	</head>
+	<body>
+		<div class="login-form" id="login-form">
+				NickName: <input type="text" name="fname" id='nick-fname'>
+				<button type="button" id="name-submit" onclick="submitForm(event)">Submit</button>
+				<p id="nick-error"></p>
+		</div>
+		<div id="users">
+			<ul class="user-list" id="users-inner-id">
+			</ul>
+		</div>			
+	</body>
+</html>
